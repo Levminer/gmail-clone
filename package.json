@@ -1,0 +1,15 @@
+{
+  "name": "gmail-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styles": "tailwindcss -i ./tailwind.scss -o ./tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.button {
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-1.5  font-medium text-black duration-200 ease-in hover:bg-gray-100  focus:outline-none;
+	}
+}
+
+body {
+	font-family: "Roboto", sans-serif !important;
+}
